@@ -2472,6 +2472,9 @@
   .justify-start {
     justify-content: flex-start;
   }
+  .justify-items-center {
+    justify-items: center;
+  }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
   }
@@ -2751,6 +2754,12 @@
   }
   .text-\[20px\] {
     font-size: 20px;
+  }
+  .text-\[25px\] {
+    font-size: 25px;
+  }
+  .text-\[30px\] {
+    font-size: 30px;
   }
   .text-\[40px\] {
     font-size: 40px;
@@ -3495,6 +3504,11 @@
   .desktop\:items-start {
     @media (width >= 1024px) {
       align-items: flex-start;
+    }
+  }
+  .desktop\:justify-center {
+    @media (width >= 1024px) {
+      justify-content: center;
     }
   }
   .desktop\:justify-end {
