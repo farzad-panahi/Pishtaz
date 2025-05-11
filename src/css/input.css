@@ -17,9 +17,9 @@
 /* footer */
 footer {
   background-image: linear-gradient(
-    186deg,
-    #f50303 0%,
-    #c4c3c7 100%
+    150deg,
+    #f50303 35%,
+    #c4c3c7 60%
   ) !important;
   .footer1 {
     background-image: url(../svg/footerbackground.svg);
